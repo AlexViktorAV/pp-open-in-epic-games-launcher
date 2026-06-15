@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Open in Epic Games Launcher</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-color: #202020;
+            --text-primary: #ffffff;
+            --text-secondary: #a2a2a2;
+            --accent-blue: #0078f2;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-color);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        h1, h2, h3 {
+            color: var(--text-primary);
+        }
+        h1 {
+            border-bottom: 2px solid var(--accent-blue);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .last-updated {
+            font-size: 0.9em;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="last-updated">Last Updated: June 15, 2026</div>
+
+        <p>This Privacy Policy applies to the <strong>"Open in Epic Games Launcher"</strong> browser extension. I am committed to protecting your privacy and ensuring transparency about how this extension operates.</p>
+
+        <h2>1. Data Collection</h2>
+        <p><strong>I do not collect, transmit, distribute, or sell any of your personal data.</strong> The extension is designed to run entirely locally on your device.</p>
+
+        <h2>2. Local Storage</h2>
+        <p>The extension utilizes your browser's local storage API (<code>chrome.storage.local</code>) strictly for the purpose of saving your settings. Specifically, it saves the true/false state of the "Auto-open Epic Launcher" toggle. This data never leaves your browser and is not accessible by any external servers.</p>
+
+        <h2>3. External Web Requests</h2>
+        <p>To function correctly, the extension makes external requests in the background:</p>
+        <ul>
+            <li><strong>Fab Freebies Tracker:</strong> The extension periodically fetches the HTML from <code>https://www.fab.com/limited-time-free</code> to parse and display the current active date range for free assets inside the extension popup. No user data, cookies, or tracking identifiers are sent during this request.</li>
+        </ul>
+
+        <h2>4. Epic Games Client Integration</h2>
+        <p>The extension uses standard Uniform Resource Identifier (URI) schemes (e.g., <code>com.epicgames.launcher://</code>) to instruct your operating system to open specific pages in the local Epic Games Launcher. It does not interface with your Epic Games account, nor does it possess the capability to read your library, friends list, or purchase history.</p>
+
+        <h2>5. Changes to This Policy</h2>
+        <p>I may update this Privacy Policy periodically to reflect changes in the extension's functionality or regulatory requirements. Any changes will be reflected by the "Last Updated" date at the top of this page.</p>
+
+        <h2>6. Contact Information</h2>
+        <p>If you have any questions, concerns, or feedback regarding this Privacy Policy, please feel free to reach out via Discord:</p>
+        <ul>
+            <li><strong>Discord:</strong> <a href="https://discord.com/users/499337225465626625" target="_blank">discord.com/alexviktor</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
