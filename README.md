@@ -37,6 +37,6 @@ This extension is built with privacy and performance in mind. It requires the fo
 
 If this extension improved your workflow or saved you a few clicks, consider supporting the development!
 
-* **PayPal:** [paypal.me/alexviktor](https://paypal.me/alexviktor)
+* **Discord:** [discord.com/alexviktor](https://discord.com/alexviktor)
 * **Streamlabs:** [streamlabs.com/alexviktorav/tip](https://streamlabs.com/alexviktorav/tip)
-* **Discord:** `discord.com/alexviktor`
+* **PayPal:** [paypal.me/alexviktor](https://paypal.me/alexviktor)
